@@ -9,7 +9,7 @@ function tg_do_about($chat_id, $message, $person_id) {
 	$text .= 'Сайт автора: www.wpfolio.ru';
 	
 	$row = array();
-	$row[] = array('text' => 'Скачать плагин', 'url' => 'https://github.com/solidcreature/wp-starter-bot' );
+	$row[] = array('text' => 'Скачать плагин', 'url' => 'https://github.com/solidcreature/wptg-starter-bot' );
 	$buttons = array($row);
 	$keyboard = tg_inline_keyboard($buttons);
 	
